@@ -1,0 +1,82 @@
+body {
+    font-family: consolas;
+    margin: 0px;
+    background-image: url(assets/background.png)
+   
+}
+
+header {
+    background-color: #333333;
+    align-items: center;
+    width:100%;
+    overflow: hidden;
+    
+
+}
+
+
+header .link {
+    color: #ff0099;
+    text-transform: uppercase;
+    text-align: center;
+    float: right;
+    padding: 15px 20px;
+
+}
+
+#logo {
+    padding-left: 10%;
+    padding-top: 7px;
+    
+}
+
+.navigation{
+    padding-right: 10%;
+}
+
+#head, #definitions{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.who {
+    color: #ff0099;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.name {
+    text-decoration: solid;
+    font-size: 50px;
+    padding-top: 7%;
+}
+
+.separator {
+    text-align: center;
+    font-size: 25px;
+    padding: 4%;
+}
+
+#definitions .def {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 42px;
+    padding-bottom: 4%;
+}
+
+#top {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#top a{
+    display: inline-block;
+    color: #ff0099;
+}
+
+#definitions {
+    padding-bottom: 3%;
+}
+
